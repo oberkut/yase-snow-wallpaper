@@ -50,7 +50,7 @@ cp -r ./yase-snow-wallpaper-main/src/org.kde.yase ~/.local/share/plasma/wallpape
 ---
 
 
-# YaSE (Yet another Snow Effect) ❄️
+# YaSE (Yet another Snow Effect)
 
 **YaSE** — Live wallpaper for KDE Plasma 6 featuring a 3D snowfall effect.
 
