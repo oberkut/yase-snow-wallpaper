@@ -1,13 +1,19 @@
 {
     "KPackageStructure": "Plasma/Wallpaper",
     "KPlugin": {
+        "Authors": [
+            {
+                "Email": "oberkut@vivaldi.net",
+                "Name": "Alexander Novichkov aka BerkuT"
+            }
+        ],
+        "Category": "",
+        "Description": "YaSE Yet another Snow Effect. 3D snowfall",
+        "Icon": "preferences-desktop-color",
         "Id": "org.kde.yase",
-        "Name": "YaSE (Yet another Snow Effect)",
-        "Version": "0.5.1",
-        "Authors": [{"Name": "Alexander Novichkov aka BerkuT"}],
-        "Description": "YaSE: Yet another Snow Effect. Professional 3D snowfall",
-        "Icon": "weather-snow",
-        "License": "GPL-3.0+"
+        "License": "GPL-3.0+",
+        "Name": "YaSE Yet another Snow Effect",
+        "Version": "0.5.1"
     },
     "X-KDE-ParentApp": "org.kde.plasmashell"
 }

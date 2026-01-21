@@ -36,13 +36,19 @@ cat <<EOF > "$BUILD_DIR/metadata.json"
 {
     "KPackageStructure": "Plasma/Wallpaper",
     "KPlugin": {
+        "Authors": [
+            {
+                "Email": "oberkut@vivaldi.net",
+                "Name": "Alexander Novichkov aka BerkuT"
+            }
+        ],
+        "Category": "",
+        "Description": "YaSE Yet another Snow Effect. 3D snowfall",
+        "Icon": "preferences-desktop-color",
         "Id": "$PLUGIN_NAME",
-        "Name": "YaSE (Yet another Snow Effect)",
-        "Version": "$VERSION",
-        "Authors": [{"Name": "$AUTHOR"}],
-        "Description": "YaSE: Professional 3D snowfall effect for Plasma 6",
-        "Icon": "weather-snow",
-        "License": "GPL-3.0+"
+        "License": "GPL-3.0+",
+        "Name": "YaSE Yet another Snow Effect",
+        "Version": "$VERSION"
     },
     "X-KDE-ParentApp": "org.kde.plasmashell"
 }
@@ -474,8 +480,6 @@ EOF
 
 # 6. Генерация изображений снежинок
 # ------------------------------------------------------------------------------
-# Поскольку оригинальные base64 были обрезаны, я создал простые рабочие PNG (белые точки/звездочки),
-# чтобы плагин работал сразу. Вы можете заменить эти строки на свои полные данные.
 
 echo ">>> Генерация ресурсов (текстуры)..."
 
